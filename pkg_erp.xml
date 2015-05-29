@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="1.6" method="upgrade">
+ <name>ERP - OpenERP University</name>
+ <author>Tứ Đại Tài Tử | Tu dai tai tu</author>
+ <creationDate>May 2015</creationDate>
+ <packagename>ERP - OpenERP University</packagename>
+ <version>1.0.0</version>
+ <url>https://github.com/OpenERP-University/</url>
+ <packager>ERP - OpenERP University | Library Valentin Despa (PHPExcel)</packager>
+ <packagerurl>https://github.com/OpenERP-University/</packagerurl>
+ <description>ERP - OpenERP University | phần mềm mã nguồn mở cho hệ thống quản lý trong trường đại học</description>
+ <update>https://github.com/OpenERP-University/</update>
+ <files folder="packages">
+   <file type="component" id="com_hrm" >com_hrm-master.zip</file>
+   <file type="component" id="com_fm" >com_fm-master.zip</file>
+   <file type="library" id="phpexcel">PHPExcel-Joomla-Library-master.zip</file>
+ </files>
+ </extension>
